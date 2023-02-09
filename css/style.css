@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+:root{
+	--fondo-header:#040404;
+	--fondo-hero:#292929;
+	--color-morado:#654682;
+	--color-rojo:#f74f4c;
+	--color-aqua:#3dcec7;
+	--color-amarillo:#f4c33a;
+	--fondo-features1:#222222;
+	--color-letra-blanca: #fff;
+	--color-letra-gris:#aaa;
+	--fondo-features2:#161616;
+	--fondo-available:#f74f4c;
+	--fondo-download:#292929;
+	--color-footer:#111111;
+	 }
+
+
+body{
+	font-family: 'Open Sans'
+}
+
+
+header{
+	background-color: var(--bg-header) !important;
+	font-weight: 700;
+}
+
+
+#hero{
+	background-color: var(--fondo-hero);
+
+	}
+
+.hero-margen{
+	margin-top: 200px;
+	margin-bottom: 50px;
+}
+
+
+h2{
+	margin-bottom: 20px;
+	color: var(--color-letra-blanca);
+
+}
+
+#hero p{
+	margin-bottom: 50px;
+	color: var(--color-letra-blanca);
+
+}
+
+.btn-rojo{
+	background-color: var(--color-rojo);
+	border-radius: 90px;
+	padding: 20px 40px;
+	color: var(--color-letra-blanca);
+}
+
+.btn-rojo:hover{
+	background-color: var(--color-rojo);
+	}
+
+#features1{
+	background-color: var(--fondo-features1);
+	
+}
+
+h3{
+	margin-top: 150px;
+	color: var(--color-letra-gris);
+	text-align: center;
+}
+
+#features1 p{
+	margin-bottom: 100px;
+	color: var(--color-letra-gris);
+	text-align: center;
+}
+
+.card{
+	border-radius: 0px;
+	border: 0px;
+	margin-bottom: 130px;
+}
+
+
+#features1 h4, 
+#features1 .card p{
+	color: var(--color-letra-blanca);
+	margin-left: 40px;
+	text-align: left;
+	margin-right: 40px;
+
+}
+
+h4{
+	margin-top: 60px;
+}
+.card1{
+	background-color: var(--color-morado);
+}
+
+.card2{
+	background-color: var(--color-rojo);
+}
+
+.card3{
+	background-color: var(--color-aqua);
+}
+
+.card4{
+	background-color: var(--color-amarillo);
+}
+
+
+#features2{
+	background-color: var(--fondo-features2);
+	
+}
+
+
+#features2 img{
+	margin-top: 180px;
+	margin-bottom: 120px;
+	 }
+
+
+h5{
+	margin-top: 210px;
+	color: var(--color-letra-gris);
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+h6{
+	color: var(--color-letra-blanca);
+	margin-bottom: 40px;
+}
+
+#features2 p{
+	color: var(--color-letra-gris);
+	margin-bottom: 30px;
+}
+
+#download{
+	background-color: var(--fondo-download);
+}
+
+#download h1{
+	margin-top: 200px;
+	text-align: center;
+	color: var(--color-letra-blanca);
+	font-size: 90px;
+}
+
+#download p,
+#download h7{
+	text-align: center;
+	color: var(--color-letra-blanca);
+	margin-bottom: 30px;
+	  }
+
+
+
+#download p{
+		margin-bottom: 200px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
